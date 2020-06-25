@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import LineChartComponent from './chart/line-chart';
-import SafeHtml from './chart/safe-html';
 
 
 ReactDOM.render(
@@ -14,17 +13,12 @@ ReactDOM.render(
 
     <div class="container">
       <div class ="left_side">
-        {/* <SafeHtml /> */}
         <div id ="d1">Total OTIF</div>
         <div id ="d2">
 
         <img src="../images/red_inverted_triangle.jpg" alt="inverted_triangle"/> 
         </div>
-        <div id ="d3">
-          {/* <div>  */}
-            
-          {/* </div> */}
-          92%</div>
+        <div id ="d3">92%</div>
         <div id ="d4">-3.34%</div>
         <div id ="d5">Goal: 95%
         {/* <img src="../images/red_Inverted_thumbs_up.png" /> 
